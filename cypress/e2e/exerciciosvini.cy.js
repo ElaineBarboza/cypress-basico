@@ -7,6 +7,7 @@ describe("Cadastro de Usuários", () => {
         cy.get('[href="/login"]').click();
         cy.get('.login-form').should('to.exist');
         cy.get('[data-qa="signup-name"]').type("Elaine")
+        
     })
 })
 
